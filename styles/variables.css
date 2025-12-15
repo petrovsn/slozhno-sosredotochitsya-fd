@@ -6,13 +6,18 @@
 :root{
   --page-background-image: none; /*url("../images/ice-cream.png");*/
   --page-background-color: red;
-  --header-background-image: url("../images/cover-image.png");
+  --header-background-image: url("../images/cover-image-dark.png");
 
 
-  --dark-font-color: #000028;
+  
   --violet-color: #DB00FF;
   --accent-color: #FF0070;
+
   --background-marker-color: #FF0070;
+
+  --dark-font-color: #000028;
+  --light-font-color: #F1B2CE;
+  --marked-font-color: #FF0070;
 
   --basic-font-family: "IBM Plex Mono", sans-serif;
 }
