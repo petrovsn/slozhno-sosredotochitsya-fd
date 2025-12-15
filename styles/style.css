@@ -1,5 +1,15 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image: var(--header-background-image);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+
+  padding-block-start: 10px;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
 }
+
