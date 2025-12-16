@@ -40,7 +40,7 @@
 
 }
 
-.card_content {
+.section_content {
     display: grid;
     grid-template-columns: 1fr;
     gap: 21px;
@@ -77,6 +77,6 @@ img {
     object-fit: cover;
 }
 
-.section__gallery .card_content{
+.section__gallery .section_content{
     gap: 10px;
 }

@@ -4,7 +4,7 @@
     }
 
     .header {
-        padding-inline-start: 10px;
+        padding-inline-start: 0px;
         padding-inline-end: 20px;
     }
 
@@ -33,7 +33,7 @@
         grid-template-columns: 1fr 2fr;
     }
 
-    .card_content {
+    .section_content {
         gap: 20px;
     }
 
@@ -41,13 +41,13 @@
         inline-size: 236px;
     }
 
-    .section__gallery .card_content {
+    .section__gallery .section_content {
         gap: 20px;
     }
 
     .card_gallery {
-        grid-template-columns: 229px 230px 229px;
-        grid-template-rows: 192px 230px 318px;
+        grid-template-columns: 229fr 230fr 229fr;
+        grid-template-rows: 192fr 230fr 318fr;
         gap: 20px;
     }
 
@@ -76,9 +76,9 @@
     .footer {
         margin-block-start: 60px;
     }
+
+
 }
 
 
-@media (1024> width>=768px) {
-    
-}
+@media (1024> width>=768px) {}

@@ -1,20 +1,31 @@
-@media (width>1024) {
+@media (width>=1024px) {
     :root {
         --decoration-padding: 20px;
     }
 
     .header {
-        padding-inline-start: 10px;
+        padding-inline-start: 0px;
         padding-inline-end: 20px;
     }
 
-    .header__description {
-        width: 364px;
-        margin-block-end: 140px;
+    .header__theme-menu {
+        align-self: start;
+        justify-self: center;
+        margin-inline-start: 15px;
+        margin-block-start: 10px;
     }
 
-    .header__theme-menu {
-        margin-block-start: 120px;
+    .header__theme-menu-list {
+        display: flex;
+        flex-direction: row;
+        width: 230px;
+        height: 26px;
+        justify-content: space-between;
+    }
+
+    .header__description {
+        width: 491px;
+        margin-block-end: 85px;
     }
 
     .header__title {
@@ -30,24 +41,32 @@
     .section__concentration,
     .section_tooltips {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2.09fr;
     }
 
-    .card_content {
+    .section_content {
         gap: 20px;
     }
 
-    .section__attention .section_title {
-        inline-size: 236px;
+    .section__attention .section_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
-    .section__gallery .card_content {
+    .section__attention .section_title {
+        inline-size: 312px;
+    }
+
+
+
+    .section__gallery .section_content {
         gap: 20px;
     }
 
     .card_gallery {
-        grid-template-columns: 229px 230px 229px;
-        grid-template-rows: 192px 230px 318px;
+        grid-template-columns: 229fr 230fr 229fr;
+        grid-template-rows: 192fr 230fr 318fr;
         gap: 20px;
     }
 
@@ -76,9 +95,15 @@
     .footer {
         margin-block-start: 60px;
     }
+
+    .footer_label {
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 157px;
+        line-height: 83%;
+        letter-spacing: 0%;
+    }
 }
 
 
-@media (1024> width>=768px) {
-    
-}
+@media (1024> width>=768px) {}
