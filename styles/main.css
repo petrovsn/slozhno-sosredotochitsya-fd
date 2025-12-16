@@ -16,18 +16,22 @@
     font-weight: 700;
     font-style: Bold;
     font-size: 18px;
-    line-height: 23.4px;
+    line-height: 23px;
     letter-spacing: 0%;
     word-wrap: break-word;
     color: var(--accent-color);
 }
 
-.card {}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .card_title {
     background-color: var(--accent-color);
     color: var(--dark-font-color);
-    margin-block-end: 10px;
+    
 }
 
 .card_title_alternative {
@@ -49,8 +53,20 @@
     color: var(--light-font-color);
 }
 
-
-
 .card_article a {
     text-shadow: 2px 2px 0 var(--marked-font-color) !important;
+}
+
+.card_gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.section:has(.card_gallery){
+    gap: 10px;
+}
+
+img{
+    width: 100%;
 }

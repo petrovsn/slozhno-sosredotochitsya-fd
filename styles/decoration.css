@@ -1,3 +1,8 @@
+.decorated-zone {
+  position: relative;
+  /* остальные стили */
+}
+
 .decorated-zone::after {
   display: block;
   content: "";
@@ -9,7 +14,7 @@
 
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 0px;
 }
 
 .decorated-zone::before {
@@ -21,7 +26,6 @@
   border-style: solid;
   border-color: var(--accent-color);
   position: absolute;
-
   bottom: 10px;
-  left: 10px;
+  left: 0px;
 }

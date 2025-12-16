@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    height: 100vh;
+    min-height: 667px;
+    margin-block-start: 40px;
+}
+
+.footer_label{
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family: var(--basic-font-family);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 116px;
+    line-height: 83%;
+    letter-spacing: 0%;
+    color: var(--violet-color);
+    text-shadow: 2px 2px 0px 0px var(--accent-color);
+
+}
