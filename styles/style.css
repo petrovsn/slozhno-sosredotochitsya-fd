@@ -10,3 +10,14 @@
  
 }
 
+
+.title-decor{
+  background-color: var(--background-marker-color);
+  color: var(--dark-font-color);
+  font-family: var(--basic-font-family);
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+}
