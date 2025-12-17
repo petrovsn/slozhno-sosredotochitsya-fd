@@ -3,23 +3,20 @@
   и их переопределение под различные устройства
 */
 
-:root{
-  --page-background-image: none; /*url("../images/ice-cream.png");*/
-  --page-background-color: red;
+:root {
   --header-background-image: url("../images/cover-image-dark.png");
+  --basic-font-family: "IBM Plex Mono", sans-serif;
+
+  --decoration-padding: 10px;
 
 
-  
   --violet-color: #DB00FF;
   --accent-color: #FF0070;
 
   --background-marker-color: #FF0070;
-
-  --dark-font-color: #000028;
-  --light-font-color: #F1B2CE;
-  --marked-font-color: #FF0070;
-
-  --basic-font-family: "IBM Plex Mono", sans-serif;
-
-  --decoration-padding: 10px;
+  --section-title-color: #FF0070;
+  --card-title-color: #000028;
+  --card-article-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
+  --navigation-font-color: #FF0070;
 }

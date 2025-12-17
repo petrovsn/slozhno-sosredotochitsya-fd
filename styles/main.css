@@ -21,7 +21,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     word-wrap: break-word;
-    color: var(--accent-color);
+    color: var(--section-title-color);
 }
 
 .card {
@@ -52,11 +52,12 @@
     font-size: 18px;
     line-height: 23.4px;
     letter-spacing: 0%;
-    color: var(--light-font-color);
+    color: var(--card-article-color);
 }
 
 .card_article a {
-    text-shadow: 2px 2px 0 var(--marked-font-color) !important;
+    text-shadow: 2px 2px 0 var(--link-shadow-color) !important;
+    cursor: pointer;
 }
 
 .card_gallery {

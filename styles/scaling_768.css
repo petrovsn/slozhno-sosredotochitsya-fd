@@ -1,4 +1,4 @@
-@media (1024> width>=768px) {
+@media (1024px > width >= 768px) {
     :root {
         --decoration-padding: 20px;
     }
@@ -6,6 +6,7 @@
     .header {
         padding-inline-start: 0px;
         padding-inline-end: 20px;
+        min-block-size: 1024px;
     }
 
     .header__description {

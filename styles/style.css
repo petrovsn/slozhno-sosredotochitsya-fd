@@ -13,7 +13,7 @@
 
 .title-decor{
   background-color: var(--background-marker-color);
-  color: var(--dark-font-color);
+  color: var(--card-title-color);
   font-family: var(--basic-font-family);
   font-weight: 700;
   font-style: Bold;
