@@ -28,8 +28,7 @@
         gap: 80px;
     }
 
-    .section__concentration,
-    .section_tooltips {
+    .section_sided {
         display: grid;
         grid-template-columns: 1fr 2fr;
     }

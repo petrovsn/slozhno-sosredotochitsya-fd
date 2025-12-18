@@ -10,7 +10,7 @@
   height: 25.04px;
   border-width: 1px 1px 0px 0px;
   border-style: solid;
-  border-color: var(--accent-color);
+  border-color: var(--decoration-corner-color);
 
   position: absolute;
   top: var(--decoration-padding);
@@ -24,7 +24,7 @@
   height: 25.04px;
   border-width: 0px 0px 1px 1px;
   border-style: solid;
-  border-color: var(--accent-color);
+  border-color: var(--decoration-corner-color);
   position: absolute;
   bottom: var(--decoration-padding);
   left: var(--decoration-padding);

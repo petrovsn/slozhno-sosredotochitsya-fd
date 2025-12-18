@@ -14,9 +14,12 @@
   --accent-color: #FF0070;
 
   --background-marker-color: #FF0070;
+  --background-page-color: #000028;
   --section-title-color: #FF0070;
-  --card-title-color:  #000028;
-  --card-article-color: #F1B2CE; 
+  --card-title-color: #000028;
+  --card-article-color: #F1B2CE;
   --link-shadow-color: #FF0070;
   --navigation-font-color: #FF0070;
+  --hover_button_color: #FF007066;
+  --decoration-corner-color: #FF0070;
 }

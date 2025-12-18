@@ -7,7 +7,7 @@
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
- 
+ background-color: var(--background-page-color);
 }
 
 

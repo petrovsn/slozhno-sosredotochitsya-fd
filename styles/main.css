@@ -60,6 +60,20 @@
     cursor: pointer;
 }
 
+.card_article a:focus {
+    outline: none;
+}
+
+.card_article a:focus-visible {
+    border: 1px solid var(--link_focus_color)
+}
+
+.card_article a:hover{
+    border-bottom: 1px solid var(--card-article-color);
+}
+
+
+
 .card_gallery {
     display: grid;
     grid-template-columns: 1fr;

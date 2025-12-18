@@ -15,16 +15,18 @@
   --card-article-color: #353430;
   --link-shadow-color: #FF8DCB;
   --navigation-font-color: #353430;
+
+  --hover_button_color: #32312D66;
+  --background-page-color: #fff1f7;
+
+  --decoration-corner-color: #353430;
 }
 
 .theme-light .header__decoration-rec {
   display: none;
 }
 
-.theme-light .decorated-zone::after,
-.theme-light .decorated-zone::before {
-  display: none;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -38,14 +40,14 @@
     --card-article-color: #353430;
     --link-shadow-color: #FF8DCB;
     --navigation-font-color: #353430;
+    --hover_button_color: #32312D66;
+    --background-page-color: #fff1f7;
+    --decoration-corner-color: #353430;
   }
 
   .theme-auto .header__decoration-rec {
     display: none;
   }
 
-  .theme-auto .decorated-zone::after,
-  .theme-auto .decorated-zone::before {
-    display: none;
-  }
+
 }

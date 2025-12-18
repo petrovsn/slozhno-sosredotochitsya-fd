@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   width: 70px;
-  height: 98px;
+  gap:10px;
   justify-content: space-between;
 }
 
@@ -76,8 +76,23 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--navigation-font-color);
+  outline: 1px solid var(--navigation-font-color);
+  pointer-events: none;
+} 
+
+.header__theme-menu-button:focus {
+  outline: none;
 }
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--navigation-font-color);
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--hover_button_color);
+} 
+
+
 
 .header__title {
   justify-self: start;
