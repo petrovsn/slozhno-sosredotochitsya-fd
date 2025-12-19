@@ -62,6 +62,7 @@
 
 .card_article a:focus {
     outline: none;
+    border: none;
 }
 
 .card_article a:focus-visible {

@@ -20,6 +20,7 @@
   --background-page-color: #fff1f7;
 
   --decoration-corner-color: #353430;
+  --link_focus_color:#353430;
 }
 
 .theme-light .header__decoration-rec {
@@ -43,6 +44,7 @@
     --hover_button_color: #32312D66;
     --background-page-color: #fff1f7;
     --decoration-corner-color: #353430;
+    --link_focus_color:#353430;
   }
 
   .theme-auto .header__decoration-rec {
